@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-09-15-13-52-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1757742184.606269	CFknup2G6WeTNPrr06	172.20.168.209	59936	184.28.108.34	443	TCP_seq_underflow_or_misorder	-	F	zeek	TCP
+#close	2025-09-15-13-52-19

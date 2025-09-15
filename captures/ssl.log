@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-09-15-13-52-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1757742187.023941	CkZ3BO3q5CFgXl9qR	172.20.168.209	57388	35.186.224.24	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	spclient.wg.spotify.com	T	-	-	F	Cs	-	-	-
+1757742186.977936	CBmoWZ2TuIMjfG2EBc	172.20.168.209	49592	8.8.8.8	443	TLSv13	TLS_AES_128_GCM_SHA256	X25519MLKEM768	dns.google	T	-	-	F	Cs	-	-	-
+#close	2025-09-15-13-52-19
