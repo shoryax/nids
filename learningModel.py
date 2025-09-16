@@ -30,3 +30,14 @@ X_test.to_csv("datasets/X_test.csv", index=False)
 y_train.to_csv("datasets/y_train.csv", index=False)
 y_val.to_csv("datasets/y_val.csv", index=False)
 y_test.to_csv("datasets/y_test.csv", index=False)
+
+from sklearn.ensemble import RandomForestClassifier
+import joblib
+
+# Create and train the model
+rf = RandomForestClassifier(random_state=42)
+rf.fit(X_train, y_train)
+
+# Save the trained model
+joblib.dump(rf, "models/nids_rf_model.pkl")
+print("Model saved in models/nids_rf_model.pkl")
