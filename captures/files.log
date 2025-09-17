@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2025-09-17-22-48-19
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1758129496.762390	FdTh2620om3m9M1bnc	CDh0tHNsl7N3wZNY6	172.20.171.30	61405	17.23.112.11	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1758129496.762393	FVQBf3uCXF7vlPBwf	Cv4jCu2Ih89yjk6J8k	172.20.171.30	61407	17.23.112.11	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1758129497.552203	FnXyV91nQTaX0YdRe5	CFuwPf2RvZNXAFYeOd	172.20.171.30	61406	17.23.112.11	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1758130213.039963	F5HX7T1Dbqgu3rRj2a	CBbUqVrhv0EpfxbB2	172.20.171.30	49771	4.213.25.240	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1858	-	0	0	F	-	-	-	-	-	-	-
+1758130214.991680	FazEhC1rWHlKRfi8g2	CKhtZx4slXhRwqmwZ1	172.20.171.30	61482	17.156.129.37	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1758130717.185118	FfM5Z41QUrNU7nMiF4	CIOcVP30La58fgalCf	172.20.171.30	49797	172.20.138.35	7000	HTTP	0	(empty)	text/plain	-	0.000004	T	F	1922	-	0	0	F	-	-	-	-	-	-	-
+1758131434.762174	F2elJJ2cg8eh5fNkR5	CXAPey44tbpquuj9jh	172.20.171.30	61707	17.23.112.11	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1758131435.252754	FkkCHa4hgbZlvBPdk	C7LPZ44qnKkQuOBWo3	172.20.171.30	61706	17.23.112.11	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1758131435.265832	FhH1qBa4K8tOLoh6j	CzY7J41prwpR8t2Nyh	172.20.171.30	61705	17.23.112.11	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1459	-	0	0	F	-	-	-	-	-	-	-
